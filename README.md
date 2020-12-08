@@ -20,7 +20,7 @@ $ npm install
 ###### To run the server :
 > In the server folder, run the command below:
 ```shell
-$ npm run dev <port>
+$ npm run start <port>
 ```
 
 ###### To run the client :
