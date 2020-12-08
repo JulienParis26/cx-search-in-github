@@ -1,0 +1,39 @@
+{
+  "name": "cx-search-in-github",
+  "version": "1.0.0",
+  "description": "Search-Github-API",
+  "author": "Julien Paris, Aymeric Thomine",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "nodemon src/main",
+    "start": "node src/main",
+    "seed": "nodemon src/seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulienParis26/cx-search-in-github.git"
+  },
+  "keywords": [
+    "github",
+    "search",
+    "API"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulienParis26/cx-search-in-github/issues"
+  },
+  "homepage": "https://github.com/JulienParis26/cx-search-in-github#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
